@@ -1,10 +1,33 @@
 {
-"alexa":[
-
-  "status": true,
-  "error": "",
-  "response": {
-    "value": "Main page: Wikipedia:Contributing to Wikipedia Editing most Wikipedia pages is easy, just click the \"Edit\" tab at the top of a Wikipedia page (or on a section-edit link). This will take you to a new page with a text box containing the editable text of the page you were viewing. In this box you can type in the text that you want to add using wiki markup to format the text and add other elements like images and tables. When you have finished editing you should write a short edit summary in the small field below the edit-box describing your changes. "
-  }
-]
+	"alexa": [
+		{
+		  "version": "1.0",
+		  "sessionAttributes": {
+		    "supportedHoroscopePeriods": {
+		      "daily": true,
+		      "weekly": false,
+		      "monthly": false
+		    }
+		  },
+		  "response": {
+		    "outputSpeech": {
+		      "type": "PlainText",
+		      "text": "Today will provide you a new learning opportunity.  Stick with it and the possibilities will be endless. Can I help you with anything else?"
+		    },
+		    "card": {
+		      "type": "Simple",
+		      "title": "Horoscope",
+		      "content": "Today will provide you a new learning opportunity.  Stick with it and the possibilities will be endless."
+		    },
+		    "reprompt": {
+		      "outputSpeech": {
+		        "type": "PlainText",
+		        "text": "Can I help you with anything else?"
+		      }
+		    },
+		    "shouldEndSession": false
+		  }
+		}
+	]
 }
+	
