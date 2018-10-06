@@ -1,0 +1,21 @@
+{
+	"alexa": [
+		{
+		  "version": "1.0",
+		  "response": {
+		    "outputSpeech": {
+		      "type": "PlainText",
+		      "text": "Today will provide you a new learning opportunity.  Stick with it and the possibilities will be endless. Can I help you with anything else?"
+		    },
+		    "reprompt": {
+		      "outputSpeech": {
+		        "type": "PlainText",
+		        "text": "Can I help you with anything else?"
+		      }
+		    },
+		    "shouldEndSession": false
+		  }
+		}
+	]
+}
+	
