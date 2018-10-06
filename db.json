@@ -2,6 +2,7 @@
 	"alexa": [
 		{
 		  "version": "1.0",
+		  "sessionAttributes": {},
 		  "response": {
 		    "outputSpeech": {
 		      "type": "PlainText",
